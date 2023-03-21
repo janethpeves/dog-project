@@ -2,6 +2,7 @@ import React from 'react'
 import style from "./LandingPage.module.css"
 import titleImg from "../assets/images/dont-shop-title.png"
 import dogImg from "../assets/images/image-dog-hand.png"
+import { Link } from 'react-router-dom'
 
 export const LandingPage = () => {
   return (
@@ -14,9 +15,11 @@ export const LandingPage = () => {
         <div className={style.information__container}>
           <img src={titleImg} alt="IMÁGEN DE TÍTULO" className={style.information__image}/>
           <p className={style.information__text}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur asperiores similique recusandae, et nostrum est! Quae fugit impedit at tenetur!
+          Muchos animales esperan un hogar estable mientras sobreviven como pueden, la mayoría de las veces en muy malas condiciones, por calles, en refugios y perreras.
+          <br></br>
+          “UN AMIGO NO SE COMPRA, NI EL AMOR TAMPOCO”
           </p>
-          <button className={style.information__button}>Ingresar</button>
+          <button className={style.information__button}><Link to='/home'>Ingresar</Link></button>
         </div>
       </div>
 
