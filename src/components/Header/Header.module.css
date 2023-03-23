@@ -1,0 +1,22 @@
+.header__container{
+    width: 100%;
+    height: 90px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 8%;
+    background-image: url("../../assets/images/fondo-pet-header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.logo__img{
+    width: auto;
+    height: 70px;
+
+    cursor: pointer;
+}
