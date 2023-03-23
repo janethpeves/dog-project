@@ -1,0 +1,27 @@
+.search__container{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    gap: 15px;
+    padding: 10px 0;
+}
+
+.input__item{
+    width: 200px;
+
+    padding: 10px ;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+.button__item{
+    padding: 10px;
+    border: none;
+
+    background-color: var(--ter-color);
+    color: white;
+    border-radius: 12px;
+}

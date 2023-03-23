@@ -1,12 +1,17 @@
 import React from 'react'
-import { Card } from '../components/Card/Card'
 import { Header } from '../components/Header/Header'
+import { ListCard } from '../components/ListCard/ListCard'
+import { SearchBar } from '../components/SearchBar/SearchBar'
 
 export const HomePage = () => {
   return (
     <>
       <Header/>
-      <Card/>
+      <main className='main__container'>
+        <SearchBar/>
+        <ListCard/>
+      </main>
+      
     </>
   )
 }
