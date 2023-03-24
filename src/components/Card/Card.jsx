@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import dog from "../../assets/images/dog-image-beni.jpeg"
 import style from "../Card/Card.module.css"
 
@@ -12,7 +13,7 @@ export const Card = () => {
         <p>Travieso</p>
         <p>Dormilón</p>
       </div>
-      <button className={style.card__button}>Conocer</button>
+      <button className={style.card__button}> <Link to ="/dog">Conocer</Link></button>
     </div>
   )
 }

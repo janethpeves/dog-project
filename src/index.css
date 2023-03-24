@@ -20,7 +20,7 @@ a{
   border:none;
   border-radius: 100px;
   font-size: 20px;
-  background-color: #ff746d;
+  background-color: var(--sec-color);
   color: white;
   font-weight: 700;
   cursor: pointer;
