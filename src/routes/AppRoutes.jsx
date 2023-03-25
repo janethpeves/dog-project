@@ -7,11 +7,11 @@ import { DogPage } from '../pages/DogPage'
 export const AppRoutes = () => {
   return (
     <BrowserRouter>
-    <Routes>
-      <Route path= "/" element= {<LandingPage/>} />
-      <Route path= "/home" element={<HomePage />}/>
-      <Route path='/dog' element={<DogPage/>}/>
-    </Routes>
+      <Routes>
+        <Route path= "/" element= {<LandingPage/>} />
+        <Route path= "/home" element={<HomePage />}/>
+        <Route path='/dog/:id' element={<DogPage/>}/>
+      </Routes>
     </BrowserRouter>
   )
 }
