@@ -19,7 +19,7 @@ export const LandingPage = () => {
           <br></br>
           “UN AMIGO NO SE COMPRA, NI EL AMOR TAMPOCO”
           </p>
-          <button className={style.information__button}><Link to='/home'>Ingresar</Link></button>
+          <Link className={style.information__button} to='/home'>Ingresar</Link>
         </div>
       </div>
 
